@@ -1,0 +1,74 @@
+.post-header .social-share {
+    margin-top: 1em;
+}
+.main-header-content .blog-logo {
+    float: none;
+}
+.main-header-content .blog-logo img {
+    width: 13rem;
+    height: auto;
+    display: inline;
+    border-radius: 50%;
+    padding: 0;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.post-template .post-header {
+    text-align: center;
+}
+
+.back-button {
+    float: left;
+    height: 38px;
+    padding: 0 15px 0 10px;
+    border: transparent 1px solid;
+    color: #9EABB3;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    border-radius: 3px;
+    transition: all ease 0.3s;
+    background: white;
+    position:static;
+}
+.back-button:before {
+    position: relative;
+    bottom: -2px;
+    font-size: 13px;
+    line-height: 0;
+    margin-right: 8px;
+}
+
+.subscribe-button {
+    float: right;
+    height: 38px;
+    padding: 0 20px;
+    border: transparent 1px solid;
+    color: #9EABB3 !important;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all ease 0.3s;
+    position:static;
+    background: white;
+}
+.subscribe-button:before {
+    font-size: 9px;
+    margin-right: 6px;
+}
+
+/* Add a border to the buttons on hover */
+.back-button:hover,
+.subscribe-button:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0) !important;
+}
+
+.post-footer .author {
+    text-align: center;
+    margin-right: 0;
+}
