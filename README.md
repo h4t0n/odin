@@ -14,6 +14,7 @@ As you know, Casper doesn't have some nice features very useful for developers s
 highlight, comments and big social sharing features. So I created this theme to fill the gap
 but keeping all the good and minimalistic features of Casper.
 
+[<img src="http://i.imgur.com/SjCzgwp.jpg">](https://blog.h4t0n.com)
 
 ### Features
 * Casper minimalistic and clean style (without right side menu)
