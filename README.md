@@ -5,6 +5,8 @@
 
 > A simple theme for Ghost made for geeks, hackers and developers (forked from Casper).
 
+[<img src="http://i.imgur.com/SjCzgwp.jpg">](https://blog.h4t0n.com)
+
 ***Do you like my theme? Do you want new features?***  
 Great, we can discuss. Open a pull request. Some :coffee::coffee::coffee::coffee: offered with [Paypal](https://www.paypal.me/andreatarquini/5) are appreciated.
 
@@ -14,7 +16,7 @@ As you know, Casper doesn't have some nice features very useful for developers s
 highlight, comments and big social sharing features. So I created this theme to fill the gap
 but keeping all the good and minimalistic features of Casper.
 
-[<img src="http://i.imgur.com/SjCzgwp.jpg">](https://blog.h4t0n.com)
+
 
 ### Features
 * Casper minimalistic and clean style (without right side menu)
