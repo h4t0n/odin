@@ -36,7 +36,7 @@ Installation is the same as other themes, so clone this repo inside your Ghost `
 ```
 # for example
 $ cd /your-ghost-root-directory
-$ git clone https://github.com/h4t0n/odin.git conten/themes/odin
+$ git clone https://github.com/h4t0n/odin.git content/themes/odin
 ```
 
 Restart Ghost and select Odin theme from your Admin Area.
