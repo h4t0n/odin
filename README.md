@@ -26,12 +26,13 @@ but keeping all the good and minimalistic features of Casper.
 * [Disqus](https://disqus.com) comments (easily configurable by code injection in the admin area)
 * [Prism](http://prismjs.com/) Syntax Highlight (all languages supported)
 * [RRSSB](https://github.com/kni-labs/rrssb) Extraordinary Social Sharing Buttons
+* [Font Awesome](http://fontawesome.io) home page Social Link Icons (easily configurable by code injection in the admin area)
 
 ### Demo
 I've created and I use this theme for my personal blog at [blog.h4t0n.com](https://blog.h4t0n.com).
 
 ## Installation
-Installation is the same as other themes, so clone this repo inside your Ghost `content/themes/` folder.
+Installation is the same as other themes, so clone or download the content of this repo inside your Ghost `content/themes/` folder.
 
 ```
 # for example
@@ -44,7 +45,7 @@ Restart Ghost and select Odin theme from your Admin Area.
 ## Configuration
 No need to configure ***Prism*** or ***RRSSB*** buttons.
 
-***Disqus*** comments and ***Google Analytics*** are disabled by default, but they are easily configurable with *Blog Header Code Injection* inside your Ghost Admin Area.
+***Disqus*** comments, ***Google Analytics***  and ***Font Awesome Social Link Icons*** are disabled by default, but they are easily configurable with *Blog Header Code Injection* inside your Ghost Admin Area.
 
 ```html
 <script>
@@ -53,7 +54,34 @@ var ga_id = 'YOUR-UA-ID_HERE';
 
 // to enable Disqus
 var disqus_shortname = 'YOUR_DISQUS_SHORTNAME'
+
+
+// to enable Social Link Icons add the social_link object
+// with the pair key/value -> social_network/link
+// NB: the key is used to include the right icon from Font Awesome
+// (you can include any Font Awesome icon)
+
+// Example1: default social network icons
+var social_link = {
+    'twitter': 'https://twitter.com/h4t0n',
+    'linkedin': 'https://it.linkedin.com/in/andreatarquini',
+    'github': 'https://github.com/h4t0n',
+    'rss':'https://blog.h4t0n.com/rss/'
+    // you can add more icons
+}
+
+// Example2: squared social network icons
+var social_link = {
+    'twitter-square': 'https://twitter.com/h4t0n',
+    'linkedin-square': 'https://it.linkedin.com/in/andreatarquini',
+    'github-square': 'https://github.com/h4t0n',
+    'rss':'https://blog.h4t0n.com/rss/'
+    // you can add more icons
+}
+
 </script>
+
+
 ```
 
 
