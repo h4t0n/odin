@@ -8,7 +8,7 @@
 [<img src="http://i.imgur.com/SjCzgwp.jpg">](https://blog.h4t0n.com)
 
 ***Do you like my theme? Do you want new features?***  
-Great, we can discuss. Open a pull request. Some :coffee::coffee::coffee::coffee: offered with [Paypal](https://www.paypal.me/andreatarquini/5) are appreciated.
+Great, we can discuss. Open an issue. Some :coffee::coffee::coffee::coffee: offered with [Paypal](https://www.paypal.me/andreatarquini/5) are appreciated.
 
 ## Intro
 **Odin** is a very simple fork of the Ghost default theme [Casper](https://github.com/TryGhost/Casper).
