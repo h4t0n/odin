@@ -45,7 +45,9 @@ Restart Ghost and select Odin theme from your Admin Area.
 ## Configuration
 No need to configure ***Prism*** or ***RRSSB*** buttons.
 
-***Disqus*** comments, ***Google Analytics***  and ***Font Awesome Social Link Icons*** are disabled by default, but they are easily configurable with *Blog Header Code Injection* inside your Ghost Admin Area.
+Odin comes with a default ***favicon*** generated with [Real Favicon Generator](http://realfavicongenerator.net). If you want to add your *favicon* you can generate your own (with [Real Favicon Generator](http://realfavicongenerator.net)) and place downloaded files inside the ***assets/img/favicons*** Odin directory.
+
+***Disqus*** comments, ***Google Analytics***  and ***Font Awesome Home Page Social Link Icons*** are disabled by default, but they are easily configurable with *Blog Header Code Injection* inside your Ghost Admin Area.
 
 ```html
 <script>
