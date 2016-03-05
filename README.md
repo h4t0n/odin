@@ -22,6 +22,7 @@ but keeping all the good and minimalistic features of Casper.
 * Casper minimalistic and clean style (without right side menu)
 * Works with Ghost 0.7+
 * Fully responsive (for mobiles and tablets)
+* Home Page Navigation Menu Buttons
 * Google Analytics (easily configurable by code injection in the admin area)
 * [Disqus](https://disqus.com) comments (easily configurable by code injection in the admin area)
 * [Prism](http://prismjs.com/) Syntax Highlight (all languages supported)
@@ -44,6 +45,8 @@ Restart Ghost and select Odin theme from your Admin Area.
 
 ## Configuration
 No need to configure ***Prism*** or ***RRSSB*** buttons.
+
+To add Homepage Navigation Menu Buttons simply add the links in your Navigation Admin Area. They may be useful for static pages (*AboutMe* for example) or for shortcut to your (best) post tags.  
 
 Odin comes with a default ***favicon*** generated with [Real Favicon Generator](http://realfavicongenerator.net). If you want to add your *favicon* you can generate your own (with [Real Favicon Generator](http://realfavicongenerator.net)) and place downloaded files inside the ***assets/img/favicons*** Odin directory.
 
@@ -90,5 +93,5 @@ var social_link = {
 ## Copyright & License
 
 Released under the MIT License.  
-Copyright (c) [Andrea Tarquini](https://blog.h4t0n.com) aka [@h4ton](https://twitter.com/h4t0n)  
+Copyright (c) 2016 [Andrea Tarquini](https://blog.h4t0n.com) aka [@h4ton](https://twitter.com/h4t0n)  
 Copyright (c) 2013-2015 Ghost Foundation (for Casper theme substantial portions of code)
