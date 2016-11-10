@@ -80,7 +80,7 @@ var social_link = {
     'twitter-square': 'https://twitter.com/h4t0n',
     'linkedin-square': 'https://it.linkedin.com/in/andreatarquini',
     'github-square': 'https://github.com/h4t0n',
-    'rss':'https://blog.h4t0n.com/rss/'
+    'rss-square':'https://blog.h4t0n.com/rss/'
     // you can add more icons
 }
 
