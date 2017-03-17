@@ -139,10 +139,10 @@
     color: white;
 }
 .no-cover .menu ul li a:hover {
-    color: black;
-    border-color: black;
+    color: lightgray;
+    border-color: lightgray;
 }
 .no-cover .menu ul li.nav-current a {
-    color: black;
-    border-color: black;
+    color: lightgray;
+    border-color: lightgray;
 }
