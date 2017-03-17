@@ -6,7 +6,7 @@
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
 
-<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}{{#if @blog.cover}}{{@blog.cover}}{{else}}no-cover{{/if}}{{/if}}">
+<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
     <div class="vertical">
         <div class="main-header-content inner">
             {{#if @blog.logo}}
