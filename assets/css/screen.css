@@ -38,7 +38,16 @@ html {
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
 }
-body { margin: 0; }
+body {
+    margin: 0;
+    font-weight: 300;
+}
+
+#disqus_thread{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
