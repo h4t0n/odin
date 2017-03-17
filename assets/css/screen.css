@@ -1655,6 +1655,7 @@ body:not(.post-template) .post-title {
 
     .post {
         font-size: 1em;
+        text-align: center;
     }
 
     body:not(.post-template) .post-title {
