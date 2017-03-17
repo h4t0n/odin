@@ -1227,6 +1227,7 @@ body:not(.post-template) .post-title {
     min-height: 0;
     margin-bottom: 0;
     background: transparent;
+    background: #3386EE;
 }
 
 .tag-head.main-header {
@@ -1728,6 +1729,7 @@ body:not(.post-template) .post-title {
     .no-cover.post-head.main-header {
         height: 55px;
         padding: 0;
+        background: #3386EE;
     }
 
     .no-cover.author-head.main-header {
