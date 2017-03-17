@@ -93,7 +93,7 @@
     color: rgba(255, 255, 255, 0.8);
 }
 .main-header.no-cover .social_link li a {
-    color: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 .main-header .social_link li a:hover {
     transform: scale(1.3);
@@ -127,8 +127,8 @@
     transition: all 0.1s ease-in-out;
 }
 .no-cover .menu ul li a {
-    color: rgba(0, 0, 0, 0.55);
-    border: rgba(0, 0, 0, 0.55) 1.5px solid;
+    /*color: rgba(0, 0, 0, 0.55);*/
+    border: white 1.5px solid;
 }
 .menu ul li a:hover {
     border-color: white;

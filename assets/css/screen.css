@@ -906,11 +906,11 @@ body.nav-opened .nav {
 }
 
 .no-cover .page-title {
-    color: rgba(0,0,0,0.8);
+    /*color: rgba(0,0,0,0.8);*/
 }
 
 .no-cover .page-description {
-    color: rgba(0,0,0,0.5);
+    /*color: rgba(0,0,0,0.5);*/
 }
 
 /* Add subtle load-in animation for content on the home page */
