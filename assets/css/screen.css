@@ -205,6 +205,11 @@ body {
     text-rendering: geometricPrecision;
 }
 
+
+.post{
+    text-align: center;    
+}
+
 ::-moz-selection {
     background: #D6EDFF;
 }
@@ -1655,7 +1660,6 @@ body:not(.post-template) .post-title {
 
     .post {
         font-size: 1em;
-        text-align: center;
     }
 
     body:not(.post-template) .post-title {
