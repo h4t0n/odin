@@ -38,7 +38,16 @@ html {
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
 }
-body { margin: 0; }
+body {
+    margin: 0;
+    font-weight: 300;
+}
+
+#disqus_thread{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
@@ -185,7 +194,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -194,6 +203,11 @@ body {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
     text-rendering: geometricPrecision;
+}
+
+
+.center-post{
+    text-align: center;    
 }
 
 ::-moz-selection {
@@ -506,9 +520,10 @@ body.nav-opened .site-wrapper {
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    background: #3386EE no-repeat center center;
     background-size: cover;
     overflow: hidden;
+    text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
 }
 
 .main-header .inner {
@@ -879,7 +894,7 @@ body.nav-opened .nav {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -887,15 +902,15 @@ body.nav-opened .nav {
 .no-cover.main-header {
     min-height: 160px;
     max-height: 40vh;
-    background: #f5f8fa;
+    background: #3386EE;
 }
 
 .no-cover .page-title {
-    color: rgba(0,0,0,0.8);
+    /*color: rgba(0,0,0,0.8);*/
 }
 
 .no-cover .page-description {
-    color: rgba(0,0,0,0.5);
+    /*color: rgba(0,0,0,0.5);*/
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -946,6 +961,7 @@ body:not(.post-template) .post-title {
 
 .post-title a {
     text-decoration: none;
+    font-weight: 400;
 }
 
 .post-excerpt p {
@@ -1211,6 +1227,7 @@ body:not(.post-template) .post-title {
     min-height: 0;
     margin-bottom: 0;
     background: transparent;
+    background: #3386EE;
 }
 
 .tag-head.main-header {
@@ -1310,7 +1327,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1644,7 +1661,7 @@ body:not(.post-template) .post-title {
     }
 
     .post {
-        font-size: 0.95em
+        font-size: 1em;
     }
 
     body:not(.post-template) .post-title {
@@ -1712,6 +1729,7 @@ body:not(.post-template) .post-title {
     .no-cover.post-head.main-header {
         height: 55px;
         padding: 0;
+        background: #3386EE;
     }
 
     .no-cover.author-head.main-header {
