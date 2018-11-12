@@ -4,7 +4,7 @@
 {{! The big featured header }}
 
 {{! Everything inside the #author tags pulls data from the author }}
-{{#author}}
+{{#foreach authors}}
     <header class="main-header author-head {{#if cover_image}}" style="background-image: url({{cover_image}}){{else}}no-cover{{/if}}">
         <nav class="main-nav overlay clearfix">
             <a class="back-button icon-arrow-left" href="{{@blog.url}}"> Home</a>
@@ -28,7 +28,7 @@
             <span class="author-stats"><i class="icon-stats"></i> {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span>
         </div>
     </section>
-{{/author}}
+{{/foreach}}
 
 {{! The main content area on the homepage }}
 <main class="content" role="main">

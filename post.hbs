@@ -37,11 +37,11 @@
         <footer class="post-footer">
 
         {{! Everything inside the #author tags pulls data from the author }}
-        {{#author}}
+        {{#foreach authors}}
 
-            {{#if author.profile_image}}
+            {{#if authors.[#].profile_image}}
             <figure class="author-image">
-                <a class="img" href="{{url}}" style="background-image: url({{author.profile_image}})"><span class="hidden">{{name}}'s Picture</span></a>
+                <a class="img" href="{{url}}" style="background-image: url({{authors.[#].profile_image}})"><span class="hidden">{{name}}'s Picture</span></a>
             </figure>
             {{/if}}
 
@@ -59,7 +59,7 @@
                 </div>
             </section>
 
-        {{/author}}
+        {{/foreach}}
 
 
 
