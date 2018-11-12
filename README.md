@@ -1,6 +1,6 @@
 # Odin
 
-![Ghost version](https://img.shields.io/badge/Ghost-0.7.x-brightgreen.svg?style=flat-square)
+![Ghost version](https://img.shields.io/badge/Ghost-2.x-brightgreen.svg?style=flat-square)
 [![Donate](https://img.shields.io/badge/donate-paypal-003087.svg?style=flat-square)](https://www.paypal.me/andreatarquini/5)
 
 > A simple theme for Ghost made for geeks, hackers and developers (forked from Casper).
@@ -20,7 +20,7 @@ but keeping all the good and minimalistic features of Casper.
 
 ### Features
 * Casper minimalistic and clean style (without right side menu)
-* Works with Ghost 0.7+
+* Works with Ghost 2+
 * Fully responsive (for mobiles and tablets)
 * Home Page Navigation Menu Buttons
 * Google Analytics (easily configurable by code injection in the admin area)
