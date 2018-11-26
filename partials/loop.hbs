@@ -13,11 +13,27 @@
         <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
     </section>
     <footer class="post-meta">
-        {{#if authors.[#].profile_image}}<img class="author-thumb" src="{{authors.[#].profile_image}}" alt="{{authors.[#].name}}" nopin="nopin" />{{/if}}
-        {{authors}}
-        {{tags prefix=" on "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-    </footer>
+       <ul class="author-list">
+            {{#foreach authors}}
+                
+
+                    <div class="author-name-tooltip">
+                        
+
+                    {{#if profile_image}}
+                        <a href="{{url}}" class="static-avatar"><img class="author-profile-image" src="{{profile_image}}" alt="{{name}}" />{{name}}</a>
+                    {{else}}
+                        <a href="{{url}}" class="static-avatar author-profile-image">{{> "icons/avatar"}}{{name}}</a>
+                    {{/if}}
+				
+                
+            {{/foreach}}
+            </ul>
+
+            <span class="reading-time">{{reading_time}}</span>
+</div>
+        </footer>
+
 </article>
 {{/foreach}}
 
