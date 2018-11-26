@@ -29,38 +29,23 @@
         <section class="post-content">
             {{content}}
         </section>
+		
+			<div class="fb-comments" data-href="{{@blog.url}}{{url}}" data-numposts="5"></div>
 
         <section class="social-share">
             {{> "social_share"}}
         </section>
+		
 
         <footer class="post-footer">
 
-        {{! Everything inside the #author tags pulls data from the author }}
-        {{#foreach authors}}
-
-            {{#if authors.[#].profile_image}}
-            <figure class="author-image">
-                <a class="img" href="{{url}}" style="background-image: url({{authors.[#].profile_image}})"><span class="hidden">{{name}}'s Picture</span></a>
-            </figure>
-            {{/if}}
-
-            <section class="author">
-                <h4><a href="{{url}}">{{name}}</a></h4>
-
-                {{#if bio}}
-                    <p>{{bio}}</p>
+ {{#has author="count:>1"}}
+                    {{> "byline-multiple"}}
                 {{else}}
-                    <p>Read <a href="{{url}}">more posts</a> by this author.</p>
-                {{/if}}
-                <div class="author-meta">
-                    {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
-                    {{#if website}}<span class="author-link icon-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
-                </div>
-            </section>
+                    {{> "byline-single"}}
+                {{/has}}
 
-        {{/foreach}}
-
+        
 
 
         <section class="post-comments">
