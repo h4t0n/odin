@@ -5,7 +5,7 @@
 
 > A simple theme for Ghost made for geeks, hackers and developers (forked from Casper).
 
-[<img src="http://i.imgur.com/SjCzgwp.jpg">]()
+[<img src="http://i.imgur.com/SjCzgwp.jpg">](http://i.imgur.com/SjCzgwp.jpg)
 
 ***Do you like my theme?***  
 Some :coffee::coffee::coffee::coffee: offered with [Paypal](https://www.paypal.me/andreatarquini/5) are appreciated.
