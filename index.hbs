@@ -2,18 +2,18 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! The big featured header }}
-<header class="main-header {{#if @blog.cover_image}}" style="background-image: url({{@blog.cover_image}}){{else}}no-cover{{/if}}">
+<header class="main-header {{#if @site.cover_image}}" style="background-image: url({{@site.cover_image}}){{else}}no-cover{{/if}}">
 
 
     <div class="vertical">
         <div class="main-header-content inner">
-            {{#if @blog.logo}}
+            {{#if @site.logo}}
             <div class="blog-logo">
-                <img src="{{@blog.logo}}" alt="{{@blog.title}}" />
+                <img src="{{@site.logo}}" alt="{{@site.title}}" />
             </div>
             {{/if}}
-            <h1 class="page-title">{{@blog.title}}</h1>
-            <h2 class="page-description">{{@blog.description}}</h2>
+            <h1 class="page-title">{{@site.title}}</h1>
+            <h2 class="page-description">{{@site.description}}</h2>
             {{navigation}}
             {{> "social_link"}}
         </div>

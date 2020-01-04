@@ -1,9 +1,9 @@
 {
   "name": "odin",
   "description": "A simple theme for Ghost made for geeks, hackers and developers (forked from Casper)",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "engines": {
-      "ghost": ">=2.0.0"
+      "ghost-api": "v3"
   },
   "license": "MIT",
   "author": {
