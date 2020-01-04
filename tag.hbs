@@ -2,10 +2,10 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! If we have a tag cover, display that - else blog cover - else nothing }}
-<header class="main-header tag-head {{#if tag.feature_image}}" style="background-image: url({{tag.feature_image}}){{else}}{{#if @blog.cover_image}}" style="background-image: url({{@blog.cover_image}}){{else}}no-cover{{/if}}{{/if}}">
+<header class="main-header tag-head {{#if tag.feature_image}}" style="background-image: url({{tag.feature_image}}){{else}}{{#if @site.cover_image}}" style="background-image: url({{@site.cover_image}}){{else}}no-cover{{/if}}{{/if}}">
     <nav class="main-nav overlay clearfix">
-        <a class="back-button icon-arrow-left" href="{{@blog.url}}"> Home</a>
-        <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/"> Subscribe</a>
+        <a class="back-button icon-arrow-left" href="{{@site.url}}"> Home</a>
+        <a class="subscribe-button icon-feed" href="{{@site.url}}/rss/"> Subscribe</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
