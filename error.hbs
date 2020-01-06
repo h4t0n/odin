@@ -1,0 +1,12 @@
+{{!< default}}
+<main class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+    <div class="vertical">
+            <h1 class="page-title">Error 404</h1>
+            <h2 class="page-description">Ooops something went wrong. Please try again.</h2>
+        <div class="menu">
+        	<ul>
+        		<li class="nav-home nav-current" role="presentation"><a href="{{@blog.url}}">Home</a></li>
+        	</ul>
+        </div>
+    </div>
+</main>
